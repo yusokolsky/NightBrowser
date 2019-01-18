@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="460" height="140" viewBox="-9 -5.5 460 140">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 58.333px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: gold;
+        font-family: "Myriad Pro";
+      }
+
+      .cls-2 {
+        font-size: 33.333px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect width="442" height="129"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <text id="NightBrowser" class="cls-1" x="58.5" y="76.5">NightBrowser</text>
+    <text id="Санкт-Петербург" class="cls-2" x="105" y="122.5">Санкт-Петербург</text>
+    <image id="Прямоугольник_2" data-name="Прямоугольник 2" y="1" width="442" height="113" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAboAAABxBAMAAABRgXt1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAElBMVEX////ivwGskgOnjgP/1wAAAABcOWKsAAAABHRSTlMAwYmDvQ5rdQAAAAFiS0dEBfhv6ccAAAAJcEhZcwAALiMAAC4jAXilP3YAAAAHdElNRQfhCQ8TNjmMxhT0AAAAv0lEQVR42u3cUQ3CQAAFwQutAhyAAkTgX1MTfgnJ8dXuZVbBGwNvvFdunD2Aju6X7v5cs8dH9xprttFlo+tG142uG103um503ei60XWj60bXja4bXTe6bnTd6LrRdaPrRteNrhtdN7pudN3outF1o+tG142uG103um503ei60XWj60bXja4bXTe6bnTd6LrRdaPrRteNrhtdN7pudN3outF1o+tG12374y/67K1f3eb+oidvs6/WPvf1TUd3Qd0BWabk1bXVzhAAAAAASUVORK5CYII="/>
+  </g>
+</svg>

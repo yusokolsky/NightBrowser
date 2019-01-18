@@ -1,0 +1,52 @@
+.contentChat{    background-color: #000000;}
+.FindChatBlock{text-align: center;
+
+
+}
+.ChatsBlockLabel{
+    text-align: center;
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(40, 164, 201);
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.SearchInputInChats{
+    height: 40px;
+    padding: 5px;
+    font-size: 1.5em;
+    border-width: 4.43px;
+    border-color: rgb(40, 164, 201);
+    border-style: solid;
+    background-color: rgb(52, 45, 45);
+    width: 250px;
+    border-radius: 25px;
+    display: inline-block;
+}
+.SearchPoint{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border-width: 3.15px;
+    border-style: solid;
+    border-color: rgb(117, 100, 221);
+    align-self: center;
+    margin-left: -39px;
+    position: relative;
+    color: white;
+    font-size: 1.6em;
+    background-color: rgb(37, 37, 39);
+    justify-content: center;
+    padding-top: 3px;
+    transition: 0.5s;
+    display: inline-block;
+}
+.SearchPoint:hover{
+    color: gray;
+}
+.poisk{
+ position: relative;
+ top: 0px;
+    left:-2px;
+}

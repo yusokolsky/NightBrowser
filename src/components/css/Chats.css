@@ -1,0 +1,481 @@
+.btn-loadede{
+    background-color: indianred;
+}
+.ChatBlockOnChatsPage{
+    width: 233px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0px;
+}
+.ChatsBlockMain{
+
+    text-align: center;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.ChatsPrimaryBlockOnMainPageContentBlockphoto{
+    white-space: normal;
+    height: 101px;
+    width: 100%;
+    background: 50% 100% no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.ChatsBlockLabel{
+    font-family: "Arial";
+    color: rgb(211, 218, 205);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 15px;
+    font-size: x-large;
+}
+.ChatsBlockSwitcher{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    transition: 1s;
+    font-weight: bold;
+    font-family: Arial;
+    line-height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tgl1{
+    display: none;
+}
+.tgl-flat1:checked + .tgl-btn1{
+    border: 4px solid #28a4c9;
+}
+.tgl-flat1:checked + .tgl-btn1:after {
+/left: 50%;
+    background: #7399d5;
+}
+.tgl1:checked + .tgl-btn1:after {
+    left: 50%;
+}
+.tgl-flat1 + .tgl-btn1 {
+    padding: 2px;
+    transition: all .2s ease;
+    background: #3c3434;
+    border: 4px solid #28a4c9;
+    border-radius: 2em;
+}
+.tgl1 + .tgl-btn1 {
+    margin: 0 0.7em;
+    outline: 0;
+    display: block;
+    width: 5em;
+    height: 2em;
+    position: relative;
+    cursor: pointer;
+    user-select: none;
+}
+.tgl1, .tgl1:after, .tgl1:before, .tgl1 *, .tgl1 *:after, .tgl1 *:before, .tgl1 + .tgl-btn1 {
+    box-sizing: border-box;
+}
+.tgl-flat1 + .tgl-btn1:after {
+    transition: all .2s ease;
+    background: #a7af9f;
+    content: "";
+    border-radius: 1em;
+}
+.tgl1 + .tgl-btn1:after {
+    left: 0;
+}
+.tgl1 + .tgl-btn1:after {
+    position: relative;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+}
+.ChatBlockOnMainPage{
+    width: 30%;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    top: 0px;
+    position: relative;
+    transition:all 0.3s ease;
+}
+.ChatBlockOnMainPage:hover .ChatBlockOnHover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.2);
+    opacity: 1;
+    box-shadow: inset 0 0 0 15px #53a7ea;
+}
+.ChatBlockOnHover{
+    transition:all 0.3s ease;
+    position: absolute;
+    left: 0;
+    opacity: .0;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(94, 176, 23);
+    font-size: 3.7vh;
+    font-weight: bold;
+    background: 50% 100% no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ChatsPrimaryBlockOnMainPageContentBlockText{
+    background-color: #edeef0;
+    color:black;
+    text-align: center;
+    padding: 10px 20px;
+    overflow: hidden;
+    height:50px;
+}
+.ChatsPopularityOnChatsPage{
+    font-size: 3vh;
+    font-weight: bold;
+z-index: 1;
+    font-family: FANTASY;
+    float: left;
+    padding-top: 2px;
+    height: 4vh;
+    width: 4vh;
+    background-size: cover;
+    border-radius: 20px;
+    position: absolute;
+    margin: 5px;
+    border: 2px solid rgba(0, 204, 247, 0.55);}
+.ChatsPrimaryBlockOnMainPageContentBlockObyavNameTitle{
+    font-family: "Myriad Pro", sans-serif;
+    color: rgb(94, 176, 23);
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 4vh;
+    text-align: center;
+
+}
+.ChatMessagesBlock{
+    color: black;
+}
+
+.ChatContnent{
+    min-height: 84.8vh;
+    background-position: center;
+    position: relative;
+    background-color: rgb(75,82,105);
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+.BackgroundInfo{
+    height: 100%;
+    z-index: 1;
+    background-size: 100%;
+    background-image: -moz-linear-gradient( 150deg, rgb(11,11,11) 0%, rgb(75,82,105) 100%);
+    background-image: -webkit-linear-gradient( 150deg, rgb(11,11,11) 0%, rgb(75,82,105) 100%);
+    background-image: -ms-linear-gradient( 150deg, rgb(11,11,11) 0%, rgb(75,82,105) 100%);
+    opacity: .96;
+}
+
+.ChatHeader{
+    background-image: -moz-linear-gradient( 180deg, rgb(11,11,11) 0%, rgb(37,36,36) 100%);
+    background-image: -webkit-linear-gradient( 180deg, rgb(11,11,11) 0%, rgb(37,36,36) 100%);
+    background-image: -ms-linear-gradient( 180deg, rgb(11,11,11) 0%, rgb(37,36,36) 100%);
+    height: 81px;
+    z-index: 3;
+    width: 100%;
+    background-size: 100%;
+}
+
+.ShareInviteToChat {
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( 90deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+    position: absolute;
+    margin: 5px 5px;
+    height: 70px;
+    width: 70px;
+    background-size: 100%;
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+    padding-top: 12px;
+    padding-left: 5px;
+    color: #d9cece;
+    cursor:pointer;
+    transition: 0.2s;
+}
+.ShareInviteToChat:hover{
+    padding-top: 10px;
+    font-size: 2.8em;
+    color: whitesmoke;
+    background-image: -moz-linear-gradient( 120deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+    background-image: -webkit-linear-gradient( 120deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+    background-image: -ms-linear-gradient( 120deg, rgb(40,164,201) 0%, rgb(101,83,154) 100%);
+}
+.NameOfChatAndDesc{
+    text-align: center;
+    justify-content: center;
+
+}
+.NameOfChatAndDesc >span{
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(25, 224, 41);
+    font-weight: bold;
+    line-height: 1.6;
+}
+.DescButton{
+    font-size: 18px;
+    font-family: "Arial";
+    color: rgb(236, 226, 226);
+    font-weight: bold;
+    line-height: 1.2;
+    cursor: pointer;
+    width: 150px;
+    margin: 0 auto;
+    z-index: 5;
+    position: relative;
+}
+.ChatDesc{
+
+    position: absolute;
+    left: 50%;
+}
+.ChatDescIn{
+    width: 400px;
+    background-color: #191819;
+    position: relative; left: -50%;
+    opacity: .0;
+    color:#a89f9f;
+    margin-top: -50px;
+    transition: 0.5s;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-right-color: rgb(40,164,201);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-bottom-color: rgb(40,164,201);
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-left-color: rgb(40,164,201);
+    border-left-style: solid;
+    border-left-width: 1px;
+    z-index: 1;
+}
+.TypeOfPrivacy{
+    color:red;
+    text-align: right;
+    width: 120px;
+    right: 0;
+    position: absolute;
+    margin-right: 16px;
+    margin-top: -40px;
+}
+.fixgreen{
+    color:lawngreen;
+    margin-top: -60px;
+
+}
+.TypeOfPrivacy >i{
+    font-size: 4.3em;
+}
+.DisplayMessages{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    min-height: 75.6vh;
+    height: 75.6vh;
+}
+.BottomMenu{
+    width: 100%;
+    height: 15%;
+}
+.MessagesBlockMain{
+    margin-bottom: -27px;
+}
+.UsrPhotoOnChat{
+    border-width: 3.79px;
+    border-color: rgb(117, 100, 221);
+    border-style: solid;
+    border-radius: 50%;
+    background-color: rgb(19, 19, 19);
+    width: 70px;
+    height: 70px;
+    position: relative;
+    z-index: 4;
+    min-height: 70px;
+    max-width: 70px;
+}
+
+.LeftSidePhotos{
+    margin-right: 50px;
+    display: inline-block;
+}
+.PhotoLabel{
+    font-family: "Arial";
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(117, 100, 221);
+    border-radius: 10px;
+    background-color: black;
+    color: #2f8f1c;
+    width: 70px;
+    font-size: 0.8em;
+    padding-left: 4px;
+    font-weight: bold;
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    z-index: 7;
+    position: relative;
+    padding-top: 1px;
+    margin-top: -20px;
+}
+.SelfMessage{
+    width:40%;
+    background-color: #161515;
+    border-bottom-left-radius: 25px;
+    display: inline-flex;
+    min-height: 70px;
+    min-width: 300px;
+    position: relative;
+    top: -51px;
+    padding-left: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.DisplayMessages::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+.DisplayMessages::-webkit-scrollbar
+{
+    width: 5px;
+    background-color: #F5F5F5;
+}
+
+.DisplayMessages::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.ChatMessageBottomBarSend{
+    display: flex;
+    height: 78px;
+    min-height: 78px;
+    text-align: center;
+    justify-content: center;
+}
+.ChatMessageBottomBarSend>textarea{
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 54px;
+    margin: 1%;
+    min-width: 40%;
+    border-radius: 35px;
+    position: relative;
+    box-shadow: -16px 7px 37px -8px #000000 inset;
+    border-width: 3.15px;
+    border-color: rgb(117, 100, 221);
+    border-style: solid;
+    background-color: rgb(53, 53, 55);
+    color:whitesmoke;
+}
+.ChatMessageBottomBarSend>div{
+    border-radius: 50%;
+    height: 54px;
+    width: 54px;
+    border-width: 3.15px;
+    border-style: solid;
+    border-color: rgb(117, 100, 221);
+    align-self: center;
+    /* font-size: x-large; */
+    margin-left: -66px;
+    position: relative;
+    color: #eda237;
+    font-size: 2em;
+    background-color: rgb(37, 37, 39);
+    justify-content: center;
+    padding-top: 7px;
+    transition: 0.5s;
+}
+.ChatMessageBottomBarSend>div:hover{
+
+    font-size: 2.2em;
+    color: whitesmoke;
+transform: rotate(180deg);
+}
+.LoadMore{
+    width: 150px;
+    display: inline-block;
+    padding: 5px;
+    border: 3.36px solid #7363d8;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(40, 57, 94);
+    cursor:pointer;
+}
+.ScrollDown{
+    width: 150px;
+    bottom: 105px;
+    display: inline-block;
+    position: absolute;
+    padding: 5px;
+    border: 3.36px solid #7363d8;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: rgb(40, 57, 94);
+    cursor: pointer;
+}
+.ScrollDown:hover{
+    background-color: rgb(68, 77, 94);
+}
+@media screen and (max-width: 768px) {
+    .ChatMessageBottomBarSend{
+
+        margin-top: -30px;
+    }
+    .ChatBlockOnChatsPage{
+        width: 100%;
+        margin: 0px;
+    }
+    .ChatDesc{
+        left:0;
+        width: 100%;
+    }
+    .ChatDescIn{
+        width:100%;
+        left:0;
+    }
+    .ChatsPrimaryBlockOnMainPageContentBlockObyavNameTitle{
+        font-size: 12pt;
+    }
+    .ChatsBlockMain{
+        padding-right: 0%;
+        padding-left:0%;
+    }
+    .LeftSidePhotos{
+        margin-right: 20px;
+    }
+}
+@media screen and (max-width: 400px) {
+.ChatDescIn{
+    width: 100%;
+}
+}

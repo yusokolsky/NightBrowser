@@ -1,0 +1,114 @@
+.friendblock {
+    z-index: 1;
+    box-sizing: border-box;
+    width: 210px;
+    /*22%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(rgba(29, 44, 70, 0.75),rgba(29, 44, 70, 0.75)), url("https://webref.ru/assets/images/html5-css3/img-06.jpg") ;
+    padding: 1.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 210px;
+    margin: 15px 3% 15px 0;
+    overflow: hidden;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 14px 8px rgba(75, 185, 220, 0.9);
+}
+/*друзья*/
+.friends{
+    display: flex;
+height: 100%;
+    padding: 0 3%;
+    background-color: #3c3434 !important;
+}
+.FriendIncomingArea{
+    display: flex;
+    flex-wrap: wrap;
+    width:25%;
+    flex-direction: column;
+    align-items: center;
+}
+.friendrequestscaption {
+    color:black;
+}
+
+.FriendArea{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+}
+.FriendArea1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.dispFlex{
+    display:flex;
+}
+
+
+.memberblock:hover .friendbottom {
+
+    margin-bottom: 15%;
+}
+.friendblock:hover .friendbottom{
+    margin-top: 20%;
+}
+.friendtop{
+    color: white;
+    cursor: pointer;
+    z-index: 50;
+    flex-direction: column;
+    align-self: flex-end;
+    font-size: 40px;
+}
+.friendblock p {
+    text-align: center;
+    color:white;
+}
+.friendblock i {
+    align-self: flex-end;
+}
+.friendbottom{
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    transition: all .3s ease-in-out;
+}
+.verticalhr{
+    height: auto;
+    min-height: 200px;
+    width: .25rem;
+}
+
+
+.Friendsblock{
+    color:black;
+}
+.leftPlusAdd{
+    display: inline-block;
+    font-size: 40px;
+}
+.rightMinusRemove{
+    display: inline-block;
+    font-size: 40px;
+    position: relative;
+    margin-right: 0px;
+    margin-left: 130px;
+}
+@media screen and (max-width: 768px) {
+    .rightMinusRemove{
+
+        margin-left: 25px;
+    }
+    .friendblock{
+        width: 100px;
+        height: 100px;
+    }
+}

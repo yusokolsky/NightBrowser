@@ -1,0 +1,178 @@
+.contentSearchPage{
+    width: 70%;
+    margin: 50px  auto 0 auto;
+    flex:1;
+}
+.allfilters {
+
+    height: 420px;
+    padding: 1% 0;
+    background-color: rgb(24, 23, 23);
+
+}
+
+.EventsLabelSP {
+    text-align: center;
+    font-size: 24px;
+    font-family: "Arial";
+    color: rgb(40, 164, 201);
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+.mapfilter {
+    position: relative;
+    margin: 0 auto;
+    height: 80%;
+    width: 70%;
+    border-radius: 20px;
+    box-shadow: 0 0 14px 8px rgba(75, 185, 220, 0.9);
+}
+.mapfilter #map{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.ymaps-2-1-60-map  {
+    border-radius: 20px !important;
+}
+.ymaps-2-1-60-map-bg-ru{border-radius: 20px !important;}
+.ymaps-2-1-60-inner-panes{border-radius: 20px !important;}
+.FiltersAndSearchOpen{
+    height:50px;
+    width:200px;
+    background-color: rgb(24, 23, 23);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    cursor:pointer;
+    transition: 1s;
+}
+.FiltersAndSearchOpenText{
+    cursor:pointer;
+    font-size: 15px;
+    font-family: "Arial";
+    color: rgb(70, 203, 41);
+
+}
+.svg-inline--fa.fa-border {
+    height: 1.5em;
+}
+.svg-inline--fa.fa-w-16 {
+    width: 1.5em;
+}
+.svg-inline--fa.fa-lg {
+    vertical-align: -0.525em;
+}
+.CloseLabel{
+    vertical-align: -0.375em;
+    display: inline-block;
+}
+.filters {
+    padding:0 1% 1% 1%;
+}
+.filters>div{
+    margin-bottom: 12px;
+}
+.filters button{
+    font-size: 14px;
+}
+
+.searcheventresult{
+    padding-top: 30px;
+    background-color: #3c3434;
+    padding-bottom: 5px;
+}
+.eventinresult{
+    color: black;
+    height:140px;
+    border-radius: 2px;
+    display: flex;
+    margin: 1.3% 10px;
+    box-shadow: 0 0 3px 3px rgba(75, 185, 220, 0.9);
+    background-color: rgb(24, 23, 23);
+
+}
+.eventimg{
+    width: 30%;
+    background-size: 100% auto;
+}
+.eventdescbysearch{
+    width: 70%;
+    padding: 1%;
+    font-size: 14pt;
+}
+.flexcont{
+    display: flex;
+    justify-content: space-around;
+
+}
+.eventright{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.eventrightCreator{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(224, 237, 221);
+    line-height: 2.2;
+    text-align: left;
+
+}
+.eventleft{
+    width: 100%;
+    position:relative;
+}
+.formcaption1{
+    float:right;
+}
+.lubaya{
+    font-weight: bold;
+}
+.EventGreenText{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(70, 203, 41);
+    font-weight: bold;
+    position: absolute;
+}
+.GreenT{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(70, 203, 41);
+}
+.EventGreenTextDate{
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(224, 237, 221);
+    line-height: 1.2;
+    text-align: left;
+    position: absolute;
+    bottom: -27px;
+}
+.EventGreenTextPar{
+    bottom: -50px;
+    position: absolute;
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(224, 237, 221);
+    line-height: 1.2;
+    text-align: left;
+}
+@media screen and (max-width: 768px) {
+    .eventrightCreator{
+        line-height: 1.2;
+    }
+    .contentSearchPage{
+        width: 100%;
+        margin: 50px  auto 0 auto;
+        flex:1;
+    }
+}

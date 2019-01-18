@@ -1,0 +1,82 @@
+.AfterLogin{display: flow-root;}
+.w3-xlarge{display: none}
+@media screen and (max-width: 1587px) {
+
+.LoginButtons{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.LoginBtn{
+    margin-left: 10px;
+ margin-top: 0px;
+}}
+@media screen and (max-width: 760px) {
+    .profiletoptext{
+        width: 100%;
+    }
+    .userpic_l{
+        width: 100px;
+        padding-bottom: 100px;
+    }
+    .friendbottom{
+        font-size:small;
+    }
+    .FriendIncomingArea{
+        width: 0%;
+    }
+    .FriendBottomBlockUserInfo{
+        display:none;
+    }
+    .friendblock{
+        width:100px;
+        height:100px;
+    }
+    .w3-xlarge{
+        display: block;
+        float: left}
+    .topwidgets{
+display: block;
+    }
+    .map{
+        width: 100%;
+    }
+    .UserWindow{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .weather{
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 0;
+    }
+    .LoginButtons{
+         margin-left: 0px;
+         margin-right: 0px;
+    }
+    .LoginBtn{
+        margin-left: 10px;
+        margin-top: 0px;
+    }
+    .shoutsItem,
+    .reg-btn,
+    .dropDown {
+        display: none
+    }
+    .dropDown {
+        display: block
+    }
+
+    .MenuButtons {
+        top: 50px;
+        bottom: 0;
+        left: -270px;
+        width: 270px;
+        position: fixed;
+        height: auto!important;
+        overflow: auto;
+        -webkit-overflow-scrolling: touch
+    }
+
+
+
+}

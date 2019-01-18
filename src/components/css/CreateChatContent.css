@@ -1,0 +1,120 @@
+.CreateChatContent{
+    color: #fff;
+    background-color: hsla(0, 0%, 0%, 0.9);
+    width:100%;
+    margin: 0 0 auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.fontfix2{font-size: 30px;
+font-family: "Arial";
+color: rgb(18, 235, 29);
+font-weight: bold;
+line-height: 1.2;}
+.CreateChatFormCaption{
+    align-self: center;
+    font-size: 14pt;
+    margin-right: 50px;
+    font-family: 'Arial';
+    color: rgb(206, 215, 206);
+    font-weight: bold;
+    line-height: 1.2;
+
+}
+.CreateChatFormName{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    display: flex;
+
+    text-align: left;
+}
+.FixMarg{
+    margin-left: 42px;
+}
+.CenterContentFix{
+    justify-content: center;
+}
+.ChatDescription{
+    width: 450px !important;
+    height: 148px !important;
+    padding: 3px;
+    padding-left: 21px !important;
+    border-radius: 20px !important;
+    font-family: 'Arial';
+    font-size: 14pt;
+    background-color: rgb(60, 52, 52);
+    color: white;
+
+    border: 2.5px solid #28a4c9;
+}
+.FontFix{
+    font-family: 'Arial';
+    font-size: 14pt;
+    background-color: rgb(60, 52, 52);
+    border-radius: 50px !important;
+    color: white;
+    padding: 3px;
+    border: 2.5px solid #28a4c9;
+}
+.CreateButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.CreateChatContentLeft{
+    text-align: left;
+    margin: 0 auto;
+    width: 50%;
+}
+.CreateChateventimgprewblock {
+    width: 340px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: "Arial";
+    color: rgb(18, 235, 29);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.CreateChateventimgprewblock img {
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+.CreateChatFormCaptionPhoto{
+    align-self: center;
+    font-size: 14pt;
+    font-family: 'Arial';
+    text-align: center;
+}
+.FlexFixx{
+
+    display: inline-flex;
+}
+
+.custom-photo-upload {
+    display: table;
+    margin: 0 auto;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: rgb(33, 28, 65);
+    font-size: 16px;
+    font-family: "Arial";
+    color: rgb(40, 164, 201);
+    font-weight: bold;
+    line-height: 1.2;
+
+
+
+}
+@media screen and (max-width: 768px) {
+    .FixMarg {
+        margin-left: -113px;
+    }
+}
