@@ -69,7 +69,7 @@ export default class Messages extends React.Component {
             }.bind(this));
         this.setState({UserData: getUserData});
         this.setState({Loading: false});
-        this.socket = io('nightbrowser.ru:80');
+        this.socket = io('https://nightbrobeta.herokuapp.com:80');
         this.socket.emit('UsrNotice',  {'UsrId':this.state.UserData.NBID ,"UsrPass":getCookieMd5Pass()});
         this.socket.on('UserMessagesUpdate', function(Messages){
             if (Messages) {
@@ -137,7 +137,7 @@ export default class Messages extends React.Component {
     }
 
     ConnectToRoom(){
-        this.socket = io('nightbrowser.ru:80');
+        this.socket = io('https://nightbrobeta.herokuapp.com:80');
         this.socket.on('connect', function() {
             // Connected, let's sign-up for to receive messages for this room
             if(this.state.UserData.NBID<this.state.UserDialogGoal.NBID) {

@@ -42,7 +42,7 @@ export default class ChatsPage extends React.Component{
         });
 
         this.LoadMore();
-        this.socket = io('http://nightbrowser.ru:80');
+        this.socket = io('https://nightbrobeta.herokuapp.com:80');
         this.socket.on('connect', function() {
             // Connected, let's sign-up for to receive messages for this room
             this.socket.emit('room', this.props.params.id);

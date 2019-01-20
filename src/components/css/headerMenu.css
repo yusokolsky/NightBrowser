@@ -19,7 +19,7 @@
     margin-top: 16px;
 }
 .LogoVnutN:after {
-    content: "NightBrowser.ru";
+    content: "https://nightbrobeta.herokuapp.com";
 }
 .LogoVnut {
     padding-top: 3px;
